@@ -12,6 +12,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import tShirt from '../assets/t-shirt.png'
 import fullSleeve from '../assets/full-sleeve.png'
+import menDeal from '../assets/men-deal.png'
+import womenDeal from '../assets/women-deal.png'
+import bagDeal from '../assets/bag-deal.png'
+import headerImage from '../assets/header.png'
 
 import data from '../../db.json'
 import './index.scss'
@@ -36,6 +40,48 @@ const Home = ({products}) => {
         {/* Navbar */}
         <Header/>
         <Navbar/>
+        <div className='relative'>
+            <div>
+                <img src={headerImage} alt="" />
+            </div>
+            <div className='absolute w-1/2 flex flex-col gap-8 bottom-[30%] left-[10%]'>
+                <h1 className='font-extralight'>Premium High Waisted</h1>
+                <h1 className='font-bold text-5xl w-3/4'>Women Tracks NOW Available</h1>
+                <button className='w-[30%] text-white roundedn-none bg-black px-4 py-2 uppercase'>Shop Now</button>
+            </div>
+        </div>
+        <div className='text-[#383838] flex flex-row justify-between px-6 py-6 mb-16 mt-16'>
+            <div className='flex flex-col gap-3 relative'>
+                <div>
+                    <img src={menDeal} alt="" />
+                </div>
+                <div className='flex flex-col absolute bottom-[10%] left-4'>
+                    <h1 className='text-xl font-bold'>For Men</h1>
+                    <h1 className='text-xl font-bold'>Clothing Bundle Deal</h1>
+                    <a href="#" className='text-[11px] hover:underline hover:font-bold hover:text-black hover:cursor-pointer'>View Deal</a>
+                </div>
+            </div>
+            <div className='flex flex-col gap-3 relative'>
+                <div>
+                    <img src={womenDeal} alt="" />
+                </div>
+                <div className='flex flex-col absolute bottom-[10%] left-4'>
+                    <h1 className='text-xl font-bold'>For Men</h1>
+                    <h1 className='text-xl font-bold'>Clothing Bundle Deal</h1>
+                    <a href="#" className='text-[11px] hover:underline hover:font-bold hover:text-black hover:cursor-pointer'>View Deal</a>
+                </div>
+            </div>
+            <div className='flex flex-col gap-3 relative'>
+                <div>
+                    <img src={bagDeal} alt="" />
+                </div>
+                <div className='flex flex-col absolute bottom-[10%] left-4'>
+                    <h1 className='text-xl font-bold'>For Men</h1>
+                    <h1 className='text-xl font-bold'>Clothing Bundle Deal</h1>
+                    <a href="#" className='text-[11px] hover:underline hover:font-bold hover:text-black hover:cursor-pointer'>View Deal</a>
+                </div>
+            </div>
+        </div>
         <div>
             <div className='flex flex-col items-center gap-8'>
                 <h1 className='text-black text-5xl font-bold'>Trending Products</h1>
