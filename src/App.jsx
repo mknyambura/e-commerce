@@ -12,6 +12,7 @@ import MensCollection from './components/MensCollection'
 import KidsCollection from './components/KidsCollection'
 import SaleCollection from './components/Sale'
 import ContactUs from './components/ContactUs'
+import FAQ from './components/FAQ'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/kids-collection' element={<KidsCollection/>}/>
         <Route path='/sales' element={<SaleCollection/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
+        <Route path='/faq' element={<FAQ/>}/>
       </Routes>
     </>
   )
