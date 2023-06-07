@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='flex flex-row justify-evenly w-3/4 items-center'>
           <div className='flex flex-col gap-3'>
             <h1 className='font-bold text-2xl'>Company</h1>
-            <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>About Us</h1>
+            <Link to='/about-us' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>About Us</Link>
             <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Accounts</h1>
             <Link to='/contact-us' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Contact Us</Link>
             <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Order Tracking</h1>
@@ -24,11 +24,11 @@ const Footer = () => {
           </div>
           <div className='flex flex-col gap-3'>
             <h1 className='font-bold text-2xl'>Customer Care</h1>
-            <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Terms & Conditions</h1>
+            <Link to='/terms-of-service' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Terms & Conditions</Link>
             <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Shipping Policy</h1>
             <Link to='/faq' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>FAQs</Link>
-            <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Refund Policy</h1>
-            <h1 className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Privacy Policy</h1>
+            <Link to='/refund-policy' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Refund Policy</Link>
+            <Link to='/privacy-policy' className='opacity-70 hover:opacity-100 hover:cursor-pointer hover:underline '>Privacy Policy</Link>
           </div>
           <div className='flex flex-col gap-3'>
             <h1 className='font-bold text-2xl'>Follow Us</h1>

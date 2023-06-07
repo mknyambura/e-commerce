@@ -37,7 +37,7 @@ const FAQ = () => {
                     <SlArrowDown/>
                 </div>
                 <div className='max-h-0 overflow-hidden peer-checked:max-h-full'>
-                    <p className='p-[20px] text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
+                    <p className='p-[10px] opacity-70 font-extralight text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ const FAQ = () => {
                     <SlArrowDown/>
                 </div>
                 <div className='max-h-0 overflow-hidden peer-checked:max-h-full'>
-                    <p className='p-[20px] text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
+                    <p className='p-[10px] opacity-70 font-extralight text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ const FAQ = () => {
                     <SlArrowDown/>
                 </div>
                 <div className='max-h-0 overflow-hidden peer-checked:max-h-full'>
-                    <p className='p-[20px] text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
+                    <p className='p-[10px] opacity-70 font-extralight text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ const FAQ = () => {
                     <SlArrowDown/>
                 </div>
                 <div className='max-h-0 overflow-hidden peer-checked:max-h-full'>
-                    <p className='p-[20px] text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
+                    <p className='p-[10px] opacity-70 font-extralight text-sm peer-checked:max-h-full'>We ship from 6 warehouses around the US. With so many shipping centers across the country, we provide some of the fastest, most affordable delivery options in the industry.</p>
                 </div>
             </div>
         </div>

@@ -13,6 +13,11 @@ import KidsCollection from './components/KidsCollection'
 import SaleCollection from './components/Sale'
 import ContactUs from './components/ContactUs'
 import FAQ from './components/FAQ'
+import AboutUs from './components/AboutUs'
+import TermsOfService from './components/TermsOfService'
+import PrivacyPolicy from './components/PrivacyPolicy'
+import ShippingPolicy from './components/ShippingPolicy'
+import RefundPolicy from './components/RefundPolicy'
 
 
 function App() {
@@ -29,6 +34,11 @@ function App() {
         <Route path='/sales' element={<SaleCollection/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
         <Route path='/faq' element={<FAQ/>}/>
+        <Route path='/about-us' element={<AboutUs/>}/>
+        <Route path='/terms-of-service' element={<TermsOfService/>}/>
+        <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+        <Route path='/shipping-policy' element={<ShippingPolicy/>}/>
+        <Route path='/refund-policy' element={<RefundPolicy/>}/>
       </Routes>
     </>
   )
