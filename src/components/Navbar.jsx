@@ -20,7 +20,9 @@ const Navbar = () => {
         </div>
         <div className='flex flex-row justify-between gap-6 text-2xl text-[#9D9D9D]'>
             <BsSearch/>
-            <BsCart2/>
+            <Link to='/shopping-cart'>
+              <BsCart2/>
+            </Link>
         </div>
     </div>
   )

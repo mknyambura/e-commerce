@@ -18,6 +18,7 @@ import TermsOfService from './components/TermsOfService'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import ShippingPolicy from './components/ShippingPolicy'
 import RefundPolicy from './components/RefundPolicy'
+import ShoppingCart from './components/ShoppingCart'
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
         <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
         <Route path='/shipping-policy' element={<ShippingPolicy/>}/>
         <Route path='/refund-policy' element={<RefundPolicy/>}/>
+        <Route path='/shopping-cart' element={<ShoppingCart/>}/>
+        {/* <Route path="/trending/:productId" element={<ProductDetail/>}/> */}
       </Routes>
     </>
   )

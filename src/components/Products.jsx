@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import data from '../../db.json'
+import { Link } from 'react-router-dom'
 
 const Products = ({products}) => {
     const [productItems, setproductItems] = useState([])
+    
 
     useEffect(() => {
       fetch('/trending')
@@ -19,7 +21,7 @@ const Products = ({products}) => {
               <img src={trending.image} alt="" />
             </div>
             <div>
-              <h1 className='text-[#383838] text-xl'>{trending.title}</h1>
+              <Link to={`/trending/${trending.id}`} className='text-[#383838] text-xl'>{trending.title}</Link>
               <h1 className='text-black font-bold'>${trending.price}</h1>
             </div>
           </div>
