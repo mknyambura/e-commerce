@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
               <img src={privacyPolicy} alt="" />
           </div>
           <div className='absolute bottom-[30%] left-[2%] flex flex-col gap-6'>
-            <h1 className='font-bold uppercase text-5xl'>About Us</h1>
+            <h1 className='font-bold uppercase text-5xl'>Privacy Policy</h1>
             <div className='flex flex-row items-center text-[#545454] gap-2'>
               <Link to='/' className='uppercase font-extralight hover:underline'>
                   Home
