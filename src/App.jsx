@@ -6,6 +6,7 @@ import './App.css'
 // import data from './components/data/data'
 import Home from './components/Home'
 import { Route, Routes } from 'react-router'
+import NewArrivals from './components/NewArrivals'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/new-arrivals' element={<NewArrivals/>}/>
       </Routes>
     </>
   )

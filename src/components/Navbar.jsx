@@ -3,6 +3,7 @@ import React from 'react'
 import { BsCart2, BsSearch } from 'react-icons/bs'
 
 import logo from '../assets/mosjra.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
         <div className='text-[#545454] flex flex-row gap-8'>
             <h1 className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>Home</h1>
-            <h1 className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>New Arrivals</h1>
+            <Link to='/new-arrivals' className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>New Arrivals</Link>
             <h1 className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>Men</h1>
             <h1 className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>Women</h1>
             <h1 className='hover:underling hover:text-black hover:cursor-pointer hover:font-bold'>Kids</h1>
