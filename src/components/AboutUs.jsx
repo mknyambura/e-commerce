@@ -4,18 +4,37 @@ import Header from './Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin } from 'react-icons/sl'
+import { SlArrowRight, SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin } from 'react-icons/sl'
 
 import commerce from '../assets/my-commerce.png'
 import commerce2 from '../assets/my-commerce2.png'
 import commerce3 from '../assets/my-commerce3.png'
 import commerce4 from '../assets/my-commerce4.png'
+import aboutUs from '../assets/about-us.png'
+import { Link } from 'react-router-dom'
 
 const AboutUs = () => {
   return (
     <div>
         <Header/>
         <Navbar/>
+        <div>
+            <div>
+                <img src={aboutUs} alt="" />
+            </div>
+            <div className='absolute bottom-[30%] left-[2%] flex flex-col gap-6'>
+                <h1 className='font-bold uppercase text-5xl'>About Us</h1>
+                <div className='flex flex-row items-center text-[#545454] gap-2'>
+                    <Link to='/' className='uppercase font-extralight hover:underline'>
+                        Home
+                    </Link>
+                    <SlArrowRight className='text-sm'/>
+                    <Link to='/about-us' className='uppercase font-extralight hover:underline'>
+                        About Us
+                    </Link>
+                </div>
+            </div>
+        </div>
         <div className='flex flex-col gap-8 px-24 py-24' >
             <div className='flex flex-col gap-4'>
                 <h1 className='uppercase text-5xl font-semibold'>Our History</h1>
